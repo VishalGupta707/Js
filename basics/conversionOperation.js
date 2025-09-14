@@ -38,3 +38,30 @@ console.log(stringNumber);
 // return string
 console.log(typeof stringNumber);
 
+
+// /*******************Operations*******************/
+
+console.log(3+3);
+
+let str1="Vishal "
+let str2="Gupta"
+console.log(str1+str2);
+
+
+console.log(2+2);
+//4
+
+console.log("2"+2);
+//22
+
+console.log(2+"2");
+//22
+
+console.log(1+2+"2");
+//32
+
+console.log("2"+1+2);
+//212
+
+console.log(+true);
+//1
