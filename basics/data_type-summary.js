@@ -40,3 +40,12 @@ console.log(typeof null);
 console.log(typeof undefined);
 //undefined
 
+
+
+
+
+
+
+//++++++++++++++Stack and heap memory++++++++++++++++++++
+// Stack(Primitive)
+// Heap (Non primitive) -> Heap ke ander jo bhi jaiga uska reference hi milta hai
