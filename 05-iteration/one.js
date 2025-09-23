@@ -17,3 +17,21 @@ const array=[1,2,3,4,5]
 array.forEach(element => {
     console.log(element);
 });
+
+
+//while loop
+
+let i=0
+while(i<10){
+    console.log(i);
+    i+=2
+}
+
+let score=20
+
+do {
+    console.log(score);
+    score++
+} while (score<15);
+
+// always run for 1 time
