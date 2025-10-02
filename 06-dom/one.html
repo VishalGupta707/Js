@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>DOM Learning</title>
+</head>
+<style>
+    .bg-black{
+        background-color: #212121;
+        color: #fff;
+    }
+</style>
+<body class="bg-black">
+    <div >
+        <h1 id="title" class="heading">DOM Learning <span style="display: none;">text test</span></h1>
+        <!-- /* title.innerText gives DOM Learning -> Returns the visible text inside an element
+           title.textContent gives DOM Learning text test -> Returns all the text inside an element*/ -->
+           <h2>Lorem, ipsum dolor.</h2>
+           <h2>Lorem, ipsum dolor.</h2>
+           <h2>Lorem, ipsum dolor.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+
+        <!-- document.querySelector('h2') ->  <h2>Lorem, ipsum dolor.</h2>-->
+         <!-- document.querySelectorAll('h2') -> return 3 node list -->
+
+         <ul>
+         <l1>one</l1>
+         <!-- const myul= document.querySelector('ul')
+              const turnGreen=myul.querySelector('l1')
+              turnGreen.style.backgroundColor= "green" -> this sets the background color to green of l1
+         -->
+
+         <l1>two</l1>
+         <l1>three</l1>
+         
+
+
+         <!-- querySelectorAll() 
+              const allLi=document.querySelectorAll('l1')
+              allLi.style.color="green" -> gives error as alli is nodeList its like array but not pure array
+              allLi[0].style.color="green" -> this sets (one) color to green 
+             -->
+
+
+             <!-- Using function to make changes to all the items in querySelectorAll()
+                   const allLi=document.querySelectorAll('ul')
+                   allLi.forEach( function (l) {
+                   l.style.backgroundColor="green"
+                })  
+                   This changes backgroundColor of all to green-->
+
+        </ul>
+
+        <!--  we can convert nodeList to array using Arrays.from(List) -> This convert the list to array
+           -->
+    </div>
+</body>
+</html>
